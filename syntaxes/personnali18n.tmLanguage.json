@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "I18nLocal",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.personnali18n",
+				"match": "\\b(~LANGUAGE~)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.personnali18n",
+			"begin": "{",
+			"end": "}",
+			"patterns": []
+		}
+	},
+	"scopeName": ""
+}

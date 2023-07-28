@@ -1,0 +1,25 @@
+{
+  "name": "personnal-i18n",
+  "displayName": "Personnal I18n",
+  "description": "Syntax hignlighting for my personnal i18n files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "personnali18n",
+      "aliases": ["I18nLocal", "personnali18n"],
+      "extensions": [".i18n"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "personnali18n",
+      "scopeName": "",
+      "path": "./syntaxes/personnali18n.tmLanguage.json"
+    }]
+  }
+}
