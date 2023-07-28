@@ -18,7 +18,7 @@
     }],
     "grammars": [{
       "language": "personnali18n",
-      "scopeName": "",
+      "scopeName": "source.personnali18n",
       "path": "./syntaxes/personnali18n.tmLanguage.json"
     }]
   }
